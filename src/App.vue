@@ -9,15 +9,18 @@ import HelloWorld from './components/HelloWorld.vue'
     </div>
     <div class="wrapper">
       <div class="left"></div>
-      <div class="right"></div>
+      <div class="right-wrapper">
+        <div class="ritht-title"></div>
+        <div class="right"></div>
+      </div>
     </div>
   </div>
 </template>
 
 <style lang="less" scoped>
 .container{
-  width: 1920px;
-  height: 1080px;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -44,7 +47,7 @@ import HelloWorld from './components/HelloWorld.vue'
   border: 1px solid;
 }
 .right{
-  width: 1582px;
+  flex: 1;
   height: 835px;
   border: 1px solid;
 }
