@@ -2,7 +2,7 @@
 function setRem() {
     // 1920 默认大小16px; 1920px = 120rem ;每个元素px基础上/16
     const screenWidth = 1920
-    const scale = screenWidth / 16
+    const scale = screenWidth / 192
     const htmlWidth = document.documentElement.clientWidth || document.body.clientWidth
     // 得到html的Dom元素
     const htmlDom = document.getElementsByTagName('html')[0]
